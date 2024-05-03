@@ -1,0 +1,23 @@
+### OBTENER TODAS LAS CARTAS
+GET http://localhost:3000/cards
+												
+### ACUALIZAR UNA CARTA
+PUT http://localhost:3000/cards/4
+Content-Type: application/json
+
+{
+      "type": "Wins",
+      "name":"Lando wins race"
+  }
+### DELETE UNA CARTA
+DELETE http://localhost:3000/cards/4
+
+### POST UNA CARTA
+POST http://localhost:3000/cards
+Content-Type: application/json
+
+{
+      "id": 5,
+      "type": "Attack",
+      "name":"Danial attacks Lando"
+  }

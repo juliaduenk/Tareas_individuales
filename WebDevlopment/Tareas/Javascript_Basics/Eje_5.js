@@ -1,5 +1,3 @@
-
-
 function maxComunDiv(a, b) {
 
     while (b != 0) {

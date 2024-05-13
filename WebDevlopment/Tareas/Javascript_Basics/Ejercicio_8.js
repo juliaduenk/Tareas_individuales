@@ -1,20 +1,14 @@
-<<<<<<< HEAD
 
-function quitaDup(arreglo) {
-    return [...new Set(arreglo)];
+function remomveDupes(array){
+    let unique = [];
+    for (let i = 0; i < array.length; i++){
+        if (unique.indexOf(array[i]) === -1){
+            unique.push(array[i]);
+        }
+    }
+    return unique;
 }
 
-
-let arreglo = [1, 0, 1, 1, 0, 1];
-let SinDup = quitaDup(arreglo);
-console.log(SinDup);  
-=======
-function quitaDup(arreglo) {
-    return [...new Set(arreglo)];
-}
-
-
-let arreglo = [1, 0, 1, 1, 0, 1];
-let SinDup = quitaDup(arreglo);
-console.log(SinDup);  
->>>>>>> f07fa0c7f7bc2cca88fba5b76879b81c61229163
+console.log(remomveDupes([1, 0, 1, 0]));
+console.log(remomveDupes(["hit", "dog", "high"]));
+console.log(remomveDupes(["care", "share", "care"]));

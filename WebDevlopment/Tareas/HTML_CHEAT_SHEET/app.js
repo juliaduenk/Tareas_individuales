@@ -14,13 +14,7 @@ app.get("/", (req, res) => {
     res.status(200).send(file);
 });
 
-app.post('/cards', (req, res) => {
 
-    console.log(req.body);
-    card_list.push(req.body);
-    res.status(200).send("Card added susccessfully");
-
-})
 
 
 app.listen(port, () => {

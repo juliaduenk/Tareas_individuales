@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.cheat-sheet {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.property {
+    margin-bottom: 20px;
+}
+
+.property h2 {
+    background-color: #e7acf6;
+    padding: 10px;
+    border-left: 4px solid #007BFF;
+}
+
+.example {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddf09f;
+}
+
+.border-example {
+    border: 2px solid #000;
+}
+
+.border-sides-example {
+    border-left: 4px solid red;
+    border-right: 4px solid rgb(1, 255, 1);
+    border-top: 4px solid blue;
+    border-bottom: 4px solid purple;
+}
+
+.border-radius-example {
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.background-image-example {
+    background-image: url('https://preview.redd.it/scuderia-ferrari-leo-leclerc-we-couldnt-help-but-post-these-v0-4m3q75q1i8zc1.jpg?width=640&crop=smart&auto=webp&s=a75556c8d414454b0619311d8f45d31256d075e3');
+    height: 700px;
+    background-size: cover;
+}
+
+.color-example {
+    color: #007BFF;
+}
+
+.font-example {
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+.font-family-example {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-style-weight-example {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.width-height-example {
+    width: 200px;
+    height: 100px;
+    background-color: #737fec;
+    border: 1px solid #2ddd6d;
+}
+
+.list-style-example {
+    list-style: square inside;
+}
+
+.margin-example {
+    margin: 20px;
+    background-color: #dc2354;
+    border: 1px solid #55e276;
+}
+
+.padding-example {
+    padding: 20px;
+    background-color: #f8fc04;
+    border: 1px solid #19277a;
+}
+
+.overflow-example {
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+    background-color: #bef9dc;
+    border: 1px solid #6482ed;
+}
+
+.display-example {
+    display: inline-block;
+    background-color: #88e7b6;
+    border: 1px solid #edd968;
+    padding: 10px;
+}
+
+.position-example {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: #d1bffa;
+    border: 1px solid #f56363;
+    padding: 10px;
+}
+
+.filter-example {
+    filter: brightness(150%);
+    background-color: #eaed49;
+    border: 1px solid #a446f2;
+    padding: 10px;
+}

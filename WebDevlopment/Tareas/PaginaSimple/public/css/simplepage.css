@@ -1,39 +1,47 @@
-*{
+* {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
-.flexitem{
+
+#header {
+    height: 10vh; 
+
+}
+#sub {
+    height: 12vh; 
+}
+#copyright {
+    height: 12vh; 
+}
+
+.flexitem {
     height: 13vh;
     display: flex;
     align-items: center;
 }
 
-.menuflexbox{
+.menuflexbox {
     display: flex;
     color: white;
     gap: 30px;
 }
-.menucontainer{
+
+.menucontainer {
     display: flex;
     padding-right: 10%;
     padding-left: 10%;
-   
-    
 }
 
-.welcomesection{
+.welcomesection {
     flex-direction: column;
     height: 40vh;
     color: white;
     padding: 10%;
     justify-content: center;
-    
-   
-    
 }
 
-.contentflexbox{
+.contentflexbox {
     display: flex;
     gap: 30px;
     padding: 10%;
@@ -41,33 +49,36 @@
     justify-content: center;
     align-items: center;
 }
-.textocentrado{
+
+.textocentrado {
     text-align: center;
-}   
-.subscribesection{
+}
+
+.subscribesection {
     gap: 100px;
     height: 14vh;
     display: flex;
     flex-grow: 3;
     color: white;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-
 }
-.titlesection{
+
+.titlesection {
     justify-content: start;
 }
-.flexcontainer{
-    display:flex;
+
+.flexcontainer {
+    display: flex;
 }
 
-.subscribebutton{
+.subscribebutton {
     margin-left: 7px;
     padding-left: 7px;
     padding-right: 7px;
 }
 
-.logoscontainer{
+.logoscontainer {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -76,19 +87,17 @@
     text-align: center;
 }
 
-.logoscontainer img{
+.logoscontainer img {
     margin: 11px;
     flex-basis: 10px;
     height: 92px;
 }
 
-
-.grayback{
+.grayback {
     background-color: rgb(35, 59, 70);
     
-    
-
 }
-.orangeback{
+
+.orangeback {
     background-color: rgb(180, 117, 36);
 }
